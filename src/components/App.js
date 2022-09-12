@@ -10,7 +10,6 @@ import {UserContext} from './UserContext'
 
 function App() {
 
-
   const [user, setUser] = useState({
       username: "",
       email_address: "",
