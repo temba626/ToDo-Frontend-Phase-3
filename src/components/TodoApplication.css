@@ -82,8 +82,6 @@ button {
     color:  #5a823c;
 }
 
-
-
 input[type=text] {
     border:1px solid #5a823c;
     border-radius: 5px;
@@ -91,8 +89,6 @@ input[type=text] {
     font-size: 17px;
     padding: 3px 15px;
 }
-
-
 
 .new-todo-form {
     display:grid;
