@@ -31,5 +31,3 @@ function TodoList ({onDeleteTodo, todos, todoCategories, categoryNames, selected
 }
 
 export default TodoList
-
-
