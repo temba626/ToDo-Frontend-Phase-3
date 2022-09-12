@@ -1,0 +1,78 @@
+input[type=submit] {
+    margin-left: auto;
+    padding: 0.5 rem;
+    border-radius: 5px;
+    background-color: #37784d;
+    color: white;
+    font-size: 1em;
+    font-weight: bolder;
+    border: 2px solid #37784d;
+    cursor: pointer;
+    width: 25%;
+}
+
+input[type=submit]:hover {
+    color: #37784d;
+    background-color: #ffffff99;
+
+}
+
+img {
+    max-width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+input[type=text] {
+    border:1px solid #5a823c;
+    border-radius: 5px;
+    width: 55%;
+    font-size: 18px;
+    padding: 3px 15px;
+    margin-bottom: 5px;
+}
+
+input[type=email] {
+    border:1px solid #5a823c;
+    border-radius: 5px;
+    width: 55%;
+    font-size: 18px;
+    padding: 3px 15px;
+    margin-bottom: 5px;
+}
+
+input[type=password] {
+    border:1px solid #5a823c;
+    border-radius: 5px;
+    width: 55%;
+    font-size: 18px;
+    padding: 3px 15px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color:    hwb(95 2% 88%);
+ }
+
+.logout-button {
+    margin-left: auto;
+    padding: 0.5 rem;
+    border-radius: 5px;
+    background-color: #37784d;
+    color: white;
+    font-size: 1em;
+    font-weight: bolder;
+    border: 2px solid #37784d;
+    cursor: pointer;
+    width: 25%;
+}
+
+.logout-button:hover {
+    color: #37784d;
+    background-color: #ffffff99;
+}
