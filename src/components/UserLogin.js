@@ -7,7 +7,7 @@ function UserLogin ({ login, error }) {
     const [message, setMessage] = useState("")
     const {user, setUser} = useContext(UserContext);
 
-
+/* EVENT HANDLERS GO IN HERE */
     function handleSubmit(event) {
         event.preventDefault()
         login(details)
