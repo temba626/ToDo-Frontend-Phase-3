@@ -3,7 +3,6 @@ import React from "react";
 
 function SearchBox({ query, setQuery, search}) {
 
-
     return <div className="search-box">
                     <input
                         type="text"
