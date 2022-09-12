@@ -21,6 +21,7 @@ function App() {
   const [error, setError] = useState("")
   const [errorMessage, setErrorMessage] = useState("")
 
+/* fetch data initiated */
 
   async function login(details) {
     await fetch("http://localhost:9292/login", {
@@ -53,6 +54,7 @@ function App() {
     })
   }
 
+  /* LOGOUT FUNCTIONALITIES ARE HERE*/
   function logout(){
     setUser({
       username: "",
