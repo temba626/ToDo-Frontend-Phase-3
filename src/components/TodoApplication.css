@@ -33,7 +33,6 @@ button {
     max-width: 600px;
 }
 
-
 .todo {
     background: #ffffff99;
     border: grey solid 0.1rem;
@@ -41,7 +40,6 @@ button {
     padding: 0.25rem 1rem 0.25rem 0.25rem;
     display: flex;
 }
-
 
 .todo-title {
     font-weight: bolder;
