@@ -46,9 +46,9 @@ function TodoNewItemForm({ todoCategories, onNewTodoFormSubmit}) {
                 onNewTodoFormSubmit(newTodo);
                 setNewItemTitle("");
             });
-           
+
     }
-   
+
     return (
         <div>
         <form onSubmit={handleSubmit} className="new-todo-form">
@@ -65,10 +65,10 @@ function TodoNewItemForm({ todoCategories, onNewTodoFormSubmit}) {
                 </label>
             <input type="submit" value="Add Todo"></input>
         </form>
-       
+
         </div>
     )
-    
+
 }
 
 export default TodoNewItemForm;
