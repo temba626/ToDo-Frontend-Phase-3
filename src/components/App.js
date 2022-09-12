@@ -61,7 +61,7 @@ function App() {
       email_address: ""});}
 
 
-
+/* OUTPUT TO BE RENDERED */
   return (
     <div className="App">
     <UserContext.Provider value={providerValue}>
