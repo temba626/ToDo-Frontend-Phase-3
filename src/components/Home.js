@@ -15,7 +15,7 @@ function Home ({ login, logout, error, errorMessage }) {
                     <br></br>
                     <h1>Welcome, <span>{user.username}</span> !</h1>
 
-                    <br></br>
+                    <br> </br>
                     <button className="logout-button"onClick={logout}>Logout</button>
                 </div>
             ) : (
