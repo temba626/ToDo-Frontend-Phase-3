@@ -8,12 +8,11 @@ body {
     background-color: #d9edc3;
 }
 
-
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
-  
+
 button {
     margin-left: auto;
     padding: 0.5 rem;
@@ -21,7 +20,7 @@ button {
     color: white;
     font-size: 1em;
     font-weight: bolder;
-    border: 2px solid #37784d; 
+    border: 2px solid #37784d;
     cursor: pointer;
     float: center;
     width: 25%;
@@ -51,9 +50,9 @@ button {
     font-size: 1.3em;
     color: #37784d;
   }
-  
+
 .todo-cat {
-  
+
     padding: 0.5 rem;
     border-radius: 0.5 rem;
     color: grey;
@@ -63,7 +62,7 @@ button {
     cursor: pointer;
     padding: 0.25rem 1rem 0.25rem 0.25rem;
 }
-  
+
   .delete-button {
     margin-left:auto;
     padding: 0.5 rem;
@@ -72,25 +71,25 @@ button {
     color: white;
     font-size: 5px;
     font-weight: 600;
-    border: 2px solid #37784d; 
+    border: 2px solid #37784d;
     cursor: pointer;
-    width: 5%;       
+    width: 5%;
 }
-    
+
 .delete-button:hover {
     color:  #5a823c;
     background-color: #ffffff99;
-    border: 2px solid #37784d; 
+    border: 2px solid #37784d;
 }
 
 .add-todo-button {
     color:  #5a823c;
 }
-  
+
 
 
 input[type=text] {
-    border:1px solid #5a823c; 
+    border:1px solid #5a823c;
     border-radius: 5px;
     width: 85%;
     font-size: 17px;
@@ -110,8 +109,8 @@ select {
     font-size: 17px;
     padding: 3px 5px;
     border-radius: 5px;
-    border:1px solid #5a823c; 
-    
+    border:1px solid #5a823c;
+
 }
 
 input[type=submit] {
@@ -122,8 +121,7 @@ input[type=submit] {
     color: white;
     font-size: 0.9em;
     font-weight: bolder;
-    border: 2px solid #37784d; 
+    border: 2px solid #37784d;
     cursor: pointer;
-    width: 25%; 
+    width: 25%;
 }
-  
